@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #43a047;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #388e3c 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #4caf50;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #388e3c;
+        }
+        .content ul {
+            list-style: none;
+            padding: 0;
+        }
+        .content li {
+            background: #c8e6c9;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background: #2e7d32;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0 10px;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>你的姓名</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">简介</a></li>
+                    <li><a href="#portfolio">作品集</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>欢迎来到我的个人网页</h1>
+            <p>职业 | 教育背景 | 研究领域</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="about" class="content">
+            <h2>简介</h2>
+            <p>在这里写上你的简介，包括你的职业、教育背景和研究领域。</p>
+        </section>
+
+        <section id="portfolio" class="content">
+            <h2>作品集</h2>
+            <ul>
+                <li>作品1：描述你的第一个作品。</li>
+                <li>作品2：描述你的第二个作品。</li>
+                <li>作品3：描述你的第三个作品。</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="content">
+            <h2>联系方式</h2>
+            <p>在这里提供你的联系方式，例如邮箱、电话等。</p>
+            <h2>社交媒体</h2>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>版权所有 &copy; 2024</p>
+    </footer>
+</body>
+</html>
